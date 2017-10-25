@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal{
+    box-sizing: border-box;
+    display: block;
+}
+
+header nav.menu-principal ul {
+    width: 95%;
+    overflow: hidden;
+    margin: 12px auto;
+    display: block;
+    
+}    
+
+header nav.menu-principal ul li {
+    list-style: none;
+    float: left;
+    margin: 0 .6%;
+
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+div.search {
+    background-color: #efefef;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 38px;
+    width: 1050px;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+div.search span.icon , input{
+    float: left;
+    margin: 5px;
+}
+
+div.search span.icon , input:focus{
+    outline: none;
+}   
+
+.icon-pinterest{
+    color: #ad081b;
+    font-size: 35px;
+}
+
+.icon {
+    display: block;
+    color: #4C4E43;
+    font-size:25px;
+    margin-top:5px;
+}
+
+div.search .icon {
+    color: #a9ac9d;
+    font-size: 20px;
+}
+
+.recommended-search {
+    clear: both;
+}
+
+input {
+    width: 850px;
+    height: 25px;
+    background-color: #efefef;
+    border: 0;
+}
+
+nav.recommended-search{
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;  
+}
+
+nav.recommended-search ul {
+    width: 98%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+nav.recommended-search ul li {
+    list-style: none;
+    float: left;
+    margin: 0 .55%;
+    width: 10%;
+    box-sizing: border-box;
+    padding: 1% 0;
+    height: 50px;
+    border-radius: 5px;
+}    
+
+li.fondo-0 {
+    background-image:url('../assets/images/fondo0.jpg') ;
+    background-color: transparent;    
+}
+
+li.fondo-1 {
+    background-image:url('../assets/images/fondo1.jpg') ;    
+}
+
+li.fondo-2 {
+    background-image:url('../assets/images/fondo2.jpg') ;        
+}
+
+li.fondo-3{
+    background-image:url('../assets/images/fondo3.jpg') ;    
+}
+
+li.fondo-4{
+    background-image:url('../assets/images/fondo4.jpg') ;    
+}
+
+li.fondo-5{
+    background-image:url('../assets/images/fondo5.jpg') ;        
+}
+
+li.fondo-6{
+    background-image:url('../assets/images/fondo6.jpg') ;            
+}
+
+nav.recommended-search ul li a{
+    color: white;
+    display: block;
+    text-align: center;
+    margin:  0 auto;
+    font-size: 20px;
+}
+
+section.container {
+    display: block;
+    box-sizing: border-box;
+    min-height: 80px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+div {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+}
+
+div figure{
+    width: 95%;
+    margin: 15% auto;
+    margin-top: 3%; 
+    border-radius:5px; 
+}
+
+div figure img{
+    width:90%;
+    display: block;
+    margin: 0 auto;
+    border-radius:5px; 
+}
